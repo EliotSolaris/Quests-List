@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://em-content.zobj.net/thumbs/120/microsoft/319/world-map_1f5fa-fe0f.png">
+    <title> Quests</title>
+    <!-- Montserrat -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/d1d8973566.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div class="content">
+<div class="todo">
+    <div class="header">
+        <h1>Quests List</h1>
+        <input type="text" class="quest-input" placeholder="Add new quest...">
+        <button class="btn-add">Add</button>
+    </div>
+    <div class="questslist">
+        <h3>Your current quests:</h3>
+        <p class="error-info"></p>
+        <ul>
+           <!-- Here we will add quests -->
+        </ul>
+    </div>
+</div>
+
+<div class="popup">
+    <h3>Make changes:</h3>
+    <div class="popup-body">
+        <p class="popup-info"></p>
+        <input type="text" class="popup-input" placeholder="Add a quest description...">
+        <button class="popup-btn accept">Confirm</button>
+        <button class="popup-btn cancel">Cancel</button>
+    </div>
+</div>
+</div>
+<script src="/index.js"></script>
+<script src="/JS/quests.js"></script>
+<script src="/JS/store.js"></script>
+</body>
+</html>
+
